@@ -64,7 +64,7 @@ public class createQuery extends Authtokens {
 // GIVEN
         given()
                 .header("Authorization", "Bearer " + Access_Token)
-                .baseUri("https://ququev.lm-tst101.com")
+                .baseUri("url")
                 .contentType(ContentType.JSON)
                 .body(jsonData)
                 // WHEN
@@ -93,7 +93,7 @@ public class createQuery extends Authtokens {
         String queryId =
                 given()
                         .header("Authorization", "Bearer " + Access_Token)
-                        .baseUri("https://ququev.lm-tst101.com")
+                        .baseUri("url")
                         .contentType(ContentType.JSON)
                         .body(jsonData)
                         // WHEN
@@ -123,7 +123,7 @@ public class createQuery extends Authtokens {
 
         given()
                 .header("Authorization", "Bearer " + Access_Token)
-                .baseUri("https://ququev.lm-tst101.com")
+                .baseUri("url")
                 .contentType(ContentType.JSON)
                 // WHEN
                 .when()
@@ -140,7 +140,7 @@ public class createQuery extends Authtokens {
         //get response
         Response response = given()
                 .header("Authorization", "Bearer " + Access_Token)
-                .baseUri("https://ququev.lm-tst101.com")
+                .baseUri("url")
                 .contentType(ContentType.JSON)
                 .get("/api/query/" + queryId);
 

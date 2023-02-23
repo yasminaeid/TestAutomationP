@@ -1,4 +1,4 @@
-package Queries_APIs;
+package Testing_proj;
 import io.restassured.http.ContentType;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;

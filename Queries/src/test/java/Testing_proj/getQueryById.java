@@ -1,4 +1,4 @@
-package Queries_APIs;
+package Testing_proj;
 
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.specification.RequestSpecification;

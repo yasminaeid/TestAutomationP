@@ -1,4 +1,4 @@
-package Queries_APIs;
+package Testing_proj;
 
 import io.restassured.http.ContentType;
 import org.json.JSONException;

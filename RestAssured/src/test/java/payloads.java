@@ -1,6 +1,6 @@
 public class payloads {
 
-    public static String coursesResponse(){
+    public static String coursesResponse() {
 
         return "{\n" +
                 "\"dashboard\": {\n" +
@@ -26,4 +26,24 @@ public class payloads {
                 "]\n" +
                 "}";
     }
+
+    public static String addBook(String isbn, String aisle) {
+
+        return "{\n" +
+                "\n" +
+                "\"name\":\"Learn Appium Automation with Java\",\n" +
+                "\"isbn\":\"" + isbn + "\",\n" +
+                "\"aisle\":\"" + aisle + "\",\n" +
+                "\"author\":\"John foe\"\n" +
+                "}\n";
+
+    }
+
+    public static String addProduct(String name) {
+String product ="{\n" +
+        "   \"title\":\""+name+"\"\n" +
+        "}";
+return product;
+    }
+
 }

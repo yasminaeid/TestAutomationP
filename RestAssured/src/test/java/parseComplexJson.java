@@ -32,17 +32,24 @@ public class parseComplexJson {
     @Test
     public void getAllTitlesAndPrices() {
         for (int i = 0; i < getNumberOfCourses(); i++) {
-            String titles = js.get("courses["+i+"].title");
-            String prices = js.get("courses["+i+"].price").toString();
+            String titles = js.get("courses[" + i + "].title");
+            String prices = js.get("courses[" + i + "].price").toString();
             System.out.println(titles);
             System.out.println(prices);
         }
 
     }
+
     //Print no of copies sold by RPA Course
     @Test
-    public void coursesCopy(){
-         String copiesNumber =js.get("courses[2].copies").toString();
-         System.out.println("RBA course's copy are "+copiesNumber);
+    public void coursesCopy() {
+        for (int i = 0; i < getNumberOfCourses(); i++) {
+            String titles = js.get("courses[" + i + "].title");
+            if (titles.equalsIgnoreCase("RPA")) {
+                int copies = js.get("courses["+i+"].copies");
+                System.out.println("RBA course's copy are " + copies);
+                break;
+            }
+        }
     }
 }

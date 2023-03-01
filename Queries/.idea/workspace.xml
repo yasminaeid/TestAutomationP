@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e438f5be-ca9c-432c-bfcf-e585bf1c1290" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testing_proj/createQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testing_proj/getQueryById.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testing_proj/updateQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Queries_APIs/Authtokens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Queries_APIs/createQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Queries_APIs/getQueryById.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Queries_APIs/updateQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/notifications_flows_Portal/Authentications.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/notifications_flows_Portal/claimEditFlow.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Fl4p7UjV9bMfm1cCDJKdU3MHQs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/yeid/OneDrive - DXC Production/Documents/GitHub/TestAutomationP/Queries",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.language"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\yasmine.eid\Downloads\demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\yasmine.eid\IdeaProjects\Queries\src\test\java\TestData" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.complexJsonParse">
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="claimEditFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notifications_flows_Portal.claimEditFlow" />
+      <module name="Queries" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notifications_flows_Portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="complexJsonParse (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Queries" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workingWithRestAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="workingWithRestAssured" />
+      <option name="MAIN_CLASS_NAME" value="workingWithRestAssured.complexJsonParse" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="complexJsonParse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Queries" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workingWithRestAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="workingWithRestAssured" />
+      <option name="MAIN_CLASS_NAME" value="workingWithRestAssured.complexJsonParse" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="complexJsonParse.getNumberOfCourses" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workingWithRestAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="workingWithRestAssured" />
+      <option name="MAIN_CLASS_NAME" value="workingWithRestAssured.complexJsonParse" />
+      <option name="METHOD_NAME" value="getNumberOfCourses" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createQuery (2)" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queries_APIs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Queries_APIs.createQuery" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createQuery" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.createQuery" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createQuery" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.createQuery" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createQuery.createClaimQuery" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.createQuery" />
+      <option name="METHOD_NAME" value="createClaimQuery" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createQuery.verifyONQueryStatus" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.createQuery" />
+      <option name="METHOD_NAME" value="verifyONQueryStatus" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getQueryById.testOAuthWithPassword" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.getQueryById" />
+      <option name="METHOD_NAME" value="testOAuthWithPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="updateQuery" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.updateQuery" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="updateQuery.getQueryId (2)" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queries_APIs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Queries_APIs.updateQuery" />
+      <option name="METHOD_NAME" value="getQueryId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="updateQuery.getQueryId" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.updateQuery" />
+      <option name="METHOD_NAME" value="getQueryId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="updateQuery.updateQuery" type="TestNG" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.updateQuery" />
+      <option name="METHOD_NAME" value="updateQuery" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="updateQuery.updateQuery" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queries_APIs" />
+      <option name="MAIN_CLASS_NAME" value="Testing_proj.updateQuery" />
+      <option name="METHOD_NAME" value="updateQuery" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.complexJsonParse" />
+        <item itemvalue="TestNG.complexJsonParse.getNumberOfCourses" />
+        <item itemvalue="TestNG.complexJsonParse (1)" />
+        <item itemvalue="Application.claimEditFlow" />
+        <item itemvalue="TestNG.updateQuery" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e438f5be-ca9c-432c-bfcf-e585bf1c1290" name="Changes" comment="" />
+      <created>1665053526100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665053526100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-core" />
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-s3" />
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-dynamodb" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/TestAutomationP" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

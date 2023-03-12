@@ -40,10 +40,39 @@ public class payloads {
     }
 
     public static String addProduct(String name) {
-String product ="{\n" +
-        "   \"title\":\""+name+"\"\n" +
-        "}";
-return product;
+        String product = "{\n" +
+                "   \"title\":\"" + name + "\"\n" +
+                "}";
+        return product;
     }
 
+    public static String issuePayload() {
+
+        String issuePayload = "{"+
+                "\"fields\": {"+
+                "\"project\":{"+
+                "\"key\": \"REST\""+
+                "},"+
+                "\"summary\": \"Issue 5 for adding comment\","+
+                "\"issuetype\": {"+
+                "\"name\": \"Bug\""+
+                "}"+
+                "}}";
+
+
+        return issuePayload;
+    }
+    public static String addComment() {
+
+        String comment = "{\n" +
+                "    \"body\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget venenatis elit. Duis eu justo eget augue iaculis fermentum. Sed semper quam laoreet nisi egestas at posuere augue semper.\",\n" +
+                "    \"visibility\": {\n" +
+                "        \"type\": \"role\",\n" +
+                "        \"value\": \"Administrators\"\n" +
+                "    }\n" +
+                "}";
+
+
+        return comment;
+    }
 }

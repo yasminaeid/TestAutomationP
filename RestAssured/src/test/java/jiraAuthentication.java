@@ -12,7 +12,7 @@ public class jiraAuthentication {
                 .baseUri("http://localhost:8080")
                 .contentType(ContentType.JSON)
                 .body("{\n" +
-                        "\"username\": \"yasmine.eid\", \"password\": \"Mamazenab2721@@\"}")
+                        "\"username\": \"username\", \"password\": \"password\"}")
                 // WHEN
                 .when()
                 .post("/rest/auth/1/session")

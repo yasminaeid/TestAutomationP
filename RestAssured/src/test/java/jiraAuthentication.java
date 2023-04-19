@@ -1,3 +1,4 @@
+import io.restassured.filter.session.SessionFilter;
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 
@@ -6,14 +7,16 @@ import static io.restassured.RestAssured.given;
 public class jiraAuthentication {
 
     @Test
-    public static String generateJiraToken() {
-
-        String jiraToken = given()
+    public static SessionFilter generateJiraToken() {
+        // to store the session
+        SessionFilter session = new SessionFilter();
+        String response = given()
                 .baseUri("http://localhost:8080")
                 .contentType(ContentType.JSON)
                 .body("{\n" +
-                        "\"username\": \"username\", \"password\": \"password\"}")
+                        "\"username\": \"yasmine.eid\", \"password\": \"goldieminimEOldie\"}")
                 // WHEN
+                .filter(session)
                 .when()
                 .post("/rest/auth/1/session")
 
@@ -23,11 +26,9 @@ public class jiraAuthentication {
                 .statusCode(200)
                 .log().all()
                 .extract()
-                .jsonPath()
-                .get("session.value");
-
-        return jiraToken;
-
+                .response()
+                .toString();
+return session;
     }
 
 

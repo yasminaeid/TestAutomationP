@@ -75,4 +75,14 @@ public class payloads {
 
         return comment;
     }
+
+    public static String post(){
+
+        String post = "\n" +
+                "{\n" +
+                "  \"title\": \"I am in love with someone.\",\n" +
+                "  \"userId\": 5\n" +
+                "}";
+                return post;
+    }
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/yeid/OneDrive - DXC Production/Documents/GitHub/TestAutomationP/stcProject">
+        <classes>
+            <class name="base.verifyEgyptBundles">
+                <methods>
+                    <include name="testEgyptPackageType"/>
+                    <include name="testPackagePrice"/>
+                    <include name="checkPackageCurrency"/>
+                </methods>
+            </class>
+            <class name="base.verifyEmiratesBundles">
+                <methods>
+                    <include name="testEmiratesPackageType"/>
+                    <include name="testPackagePrice"/>
+                    <include name="checkPackageCurrency"/>
+                </methods>
+            </class>
+            <class name="base.verifyDjiboutiBundles">
+                <methods>
+                    <include name="testDjiboutiPackageType"/>
+                    <include name="testPackagePrice"/>
+                    <include name="checkPackageCurrency"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

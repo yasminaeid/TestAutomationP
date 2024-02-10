@@ -6,22 +6,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-public class basetests {
+public class baseTests {
+
 
     protected WebDriver driver;
 
 
     @BeforeClass
-    public void setup(){
+    public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://oyn-adminportal-qc-demo.salmonsky-1edff179.westeurope.azurecontainerapps.io/identity/login");
         driver.manage().window().maximize();
 
     }
 
     @AfterClass
-    public void tearDown(){
+    public void tearDown() {
 
         driver.quit();
     }

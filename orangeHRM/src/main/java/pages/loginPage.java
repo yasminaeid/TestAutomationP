@@ -19,25 +19,24 @@ public class loginPage {
 
     public loginPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
 
 
     By usernameCredentials = By.xpath("//label[@class='oxd-label'])[1]");
     By username = By.xpath("//p[normalize-space()='Username : Admin']");
 
-//    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 
-//
-//    public String getUsernameText(By element) {
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(element));
-//        String TextLine = driver.findElement(element).getText();
-//        return TextLine;
-//    }
+
+
+    public String getUsernameText(By element) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(element));
+        String TextLine = driver.findElement(element).getText();
+        return TextLine;
+    }
 
     public void findCredentials() {
-//        wait.until(ExpectedConditions.visibilityOf((WebElement) username));
-//      String newUsername = getUsernameText(username);
-        System.out.println("hello");
+      String newUsername = getUsernameText(username);
+        System.out.println(newUsername);
     }
 }

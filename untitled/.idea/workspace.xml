@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24891ec1-88fb-48e0-bd9a-f9d2d7ff075d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oynPages/oynHomepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oynPages/oynLoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oynPages/oynPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/baseTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/testLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oynPages/oynHomepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oynPages/oynLoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oynPages/oynPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/baseTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/testLogin.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UA6hMq2EDmSUSZdLOZGcbfBIJb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/yeid/OneDrive - DXC Production/Documents/GitHub/TestAutomationP/Task"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="oynPages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oynPages" />
+      <recent name="Base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.testLogin.testLogin">
+    <configuration name="AddOneProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartWebsite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AddproductsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AddproductsTests" />
+      <option name="MAIN_CLASS_NAME" value="AddproductsTests.AddOneProduct" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddOneProduct.addProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartWebsite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AddproductsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AddproductsTests" />
+      <option name="MAIN_CLASS_NAME" value="AddproductsTests.AddOneProduct" />
+      <option name="METHOD_NAME" value="addProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddOneProduct.addProductToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartWebsite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AddproductsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AddproductsTests" />
+      <option name="MAIN_CLASS_NAME" value="AddproductsTests.AddOneProduct" />
+      <option name="METHOD_NAME" value="addProductToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLogin.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartWebsite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.testLogin" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.testLogin.testLogin" />
+        <item itemvalue="TestNG.AddOneProduct" />
+        <item itemvalue="TestNG.AddOneProduct.addProduct" />
+        <item itemvalue="TestNG.AddOneProduct.addProductToCart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24891ec1-88fb-48e0-bd9a-f9d2d7ff075d" name="Changes" comment="" />
+      <created>1692370156139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692370156139</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
